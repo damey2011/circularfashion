@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+  webserver:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    depends_on:
+      - web
+    volumes:
+      - ./media:/code/media
+      - ./static:/code/static
+
+  db:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    expose:
+      - 5432
+    env_file:
+      - ./.env
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+#    command: [sh, -c, "gunicorn circularfashion.wsgi:application --bind 0.0.0.0:8000"]
+    command: [sh, -c, "python manage.py runserver 0.0.0.0:8000"]
+    working_dir: /code
+    volumes:
+      - .:/code
+      - ./static:/code/static
+    expose:
+      - 8000
+    depends_on:
+      - db
+    env_file:
+      - ./.env
+
+volumes:
+  postgres_data:

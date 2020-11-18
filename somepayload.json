@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Recycler 1",
+        "qualities": [
+            {
+                "id": 1,
+                "title": "Quality Best",
+                "min_count": 1,
+                "material": {
+                    "id": 1,
+                    "name": "Material 1",
+                    "attributes": "http://testserver/api/materials/1/attributes/",
+                    "attributes_count": 18
+                },
+                "condition": "(False & False & True)",
+                "operation": "http://testserver/api/materials/operation/5/",
+                "passed": true
+            }
+        ]
+    }
+]

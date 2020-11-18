@@ -1,0 +1,4760 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-11-17T02:07:47.721Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Composition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-11-17T02:07:56.211Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Fabric construction",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-11-17T02:08:02.619Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Colour shade",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-11-17T02:08:09.113Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Colour",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-11-17T02:08:16.174Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Dyes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-11-17T02:08:22.609Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Finishes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-11-17T02:08:29.676Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Print & Pattern",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-11-17T02:08:36.055Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Compliance standard",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-11-17T02:08:42.306Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Trims",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-11-17T02:09:14.957Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "[Composition] - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-11-17T02:09:21.638Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "[Composition] - Polyester",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-11-17T02:09:28.392Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "[Composition] - Wool",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-11-17T02:09:34.998Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "[Composition] - Cashmere",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-11-17T02:09:41.480Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "[Composition] - Viscose/Lyocell",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-11-17T02:09:48.219Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "[Composition] - Nylon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-11-17T02:09:54.160Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "[Composition] - Polyamide",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-11-17T02:10:00.278Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "[Composition] - Acrylic",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-11-17T02:10:07.006Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "[Composition] - Elastane",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-11-17T02:10:13.652Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "[Composition] - Silk",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-11-17T02:10:27.550Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "[Composition] - Down",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-11-17T02:10:35.161Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "[Composition] - Leather",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-11-17T02:10:41.422Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "[Composition] - Other cellulosics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-11-17T02:10:48.780Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "[Composition] - Others",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-11-17T02:11:52.154Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "[Fabric construction] - Type",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-11-17T02:12:00.211Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "[Colour shade] - Light/dark",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-11-17T02:12:10.381Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "[Colour] - Colour1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-11-17T02:12:18.692Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "[Colour] - Colour2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-11-17T02:12:27.510Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "[Colour] - Colour3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-11-17T02:12:35.210Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "[Dyes] - Dye method",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-11-17T02:12:41.496Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "[Dyes] - Dye stuff",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-11-17T02:12:52.111Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "[Finishes] - Finish 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-11-17T02:13:00.677Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "[Finishes] - Finish 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-11-17T02:13:09.538Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "[Finishes] - Finish 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-11-17T02:13:18.285Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "[Print & Pattern] - Printing method",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-11-17T02:13:26.774Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "[Print & Pattern] - Print stuff",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-11-17T02:13:35.089Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "[Compliance standard] - Standard 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-11-17T02:13:42.667Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "[Compliance standard] - Standard 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-11-17T02:13:50.282Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "29",
+        "object_repr": "[Compliance standard] - Standard 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-11-17T02:14:00.945Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "[Trims] - Default",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2020-11-17T02:35:51.320Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Recycler 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2020-11-17T02:35:55.548Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Recycler 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2020-11-17T02:39:01.634Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Material 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2020-11-17T02:39:45.714Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "[Composition] - Cotton | Material 1 | 30",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-11-17T02:40:00.516Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "[Composition] - Polyester | Material 1 | 70",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-11-17T02:40:33.054Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "[Fabric construction] - Type | Material 1 | Woven",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-11-17T02:40:57.347Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "[Colour shade] - Light/dark | Material 1 | mixed",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2020-11-17T02:41:17.468Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "[Colour] - Colour1 | Material 1 | white",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2020-11-17T02:41:28.064Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "[Colour] - Colour2 | Material 1 | indigo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2020-11-17T02:41:59.383Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "[Dyes] - Dye method | Material 1 | Top Dyed",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2020-11-17T02:42:20.570Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "[Dyes] - Dye stuff | Material 1 | Reactive Dyes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2020-11-17T02:42:46.501Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "[Finishes] - Finish 1 | Material 1 | Waxes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2020-11-17T02:43:04.815Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "[Finishes] - Finish 3 | Material 1 | Flame Retardant",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2020-11-17T02:43:25.424Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "[Print & Pattern] - Printing method | Material 1 | No Print",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2020-11-17T02:43:45.892Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "[Print & Pattern] - Print stuff | Material 1 | No Print",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2020-11-17T02:44:05.865Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "[Compliance standard] - Standard 1 | Material 1 | GRS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2020-11-17T02:44:20.605Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "[Compliance standard] - Standard 2 | Material 1 | no certificate",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2020-11-17T02:44:30.746Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "[Compliance standard] - Standard 3 | Material 1 | no certificate",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2020-11-17T02:44:46.738Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "[Trims] - Default | Material 1 | Cellulosic Trims",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2020-11-17T02:49:40.467Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Recycler 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2020-11-17T02:53:09.220Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "[Composition] - Polyester | Material 1 | 0.70",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2020-11-17T02:54:34.605Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2020-11-17T03:25:12.932Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "([Composition] - Polyester | Material 1 | 0.70 GTE 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2020-11-17T03:25:25.976Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Quality 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2020-11-17T03:33:42.538Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "[Finishes] - Finish 1 | Material 1 | Waxes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2020-11-17T03:40:13.600Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Flame Retardant",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2020-11-17T03:40:16.969Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "(Material 1 - [Finishes] - Finish 1 NEQ Flame Retardant)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2020-11-17T03:42:27.126Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Material 1 - [Compliance standard] - Standard 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2020-11-17T03:42:47.601Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "ZDHC",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2020-11-17T03:42:49.438Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "(Material 1 - [Compliance standard] - Standard 1 EQ ZDHC)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2020-11-17T13:32:16.106Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Material 1 - [Trims] - Default",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2020-11-17T13:32:42.779Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "No Trims",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2020-11-17T13:32:45.676Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "(Material 1 - [Trims] - Default NEQ No Trims)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2020-11-17T13:34:58.308Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "0.3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2020-11-17T13:35:02.911Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "(Material 1 - [Composition] - Polyester GTE 0.3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2020-11-17T13:35:08.956Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "13",
+        "object_repr": "(Material 1 - [Composition] - Polyester GTE 0.3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2020-11-17T13:40:37.504Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "Material 1 - [Composition] - Wool",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2020-11-17T13:40:47.971Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Material 1 - [Composition] - Cashmere",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2020-11-17T13:41:04.606Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Material 1 - [Composition] - Viscose/Lyocell",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2020-11-17T13:41:14.286Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "Material 1 - [Composition] - Nylon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2020-11-17T13:41:23.199Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "21",
+        "object_repr": "Material 1 - [Composition] - Polyamide",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2020-11-17T13:41:39.084Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "22",
+        "object_repr": "Material 1 - [Composition] - Acrylic",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2020-11-17T13:41:49.129Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "23",
+        "object_repr": "Material 1 - [Composition] - Elastane",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2020-11-17T13:41:57.842Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "24",
+        "object_repr": "Material 1 - [Composition] - Down",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2020-11-17T13:42:21.003Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "25",
+        "object_repr": "Material 1 - [Composition] - Leather",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2020-11-17T13:42:29.980Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "26",
+        "object_repr": "Material 1 - [Composition] - Other cellulosics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2020-11-17T13:42:39.203Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "27",
+        "object_repr": "Material 1 - [Composition] - Others",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2020-11-17T13:44:33.332Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "Material 1 - [Composition] - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2020-11-17T13:44:42.981Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "(Material 1 - [Composition] - Cotton ADD Material 1 - [Composition] - Polyester)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2020-11-17T13:45:19.510Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "(Material 1 - [Composition] - Cotton ADD Material 1 - [Composition] - Polyester)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2020-11-17T13:45:40.627Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "0.9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2020-11-17T13:45:43.028Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "((Material 1 - [Composition] - Cotton ADD Material 1 - [Composition] - Polyester) GTE 0.9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2020-11-17T15:14:27.289Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "31",
+        "object_repr": "Composition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2020-11-17T15:14:36.491Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "32",
+        "object_repr": "Fabric construction",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2020-11-17T15:14:43.519Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "33",
+        "object_repr": "Colour shade",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2020-11-17T15:14:49.435Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "34",
+        "object_repr": "Colour",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2020-11-17T15:14:55.631Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "35",
+        "object_repr": "Dyes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2020-11-17T15:15:00.675Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "Finishes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2020-11-17T15:15:06.885Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "37",
+        "object_repr": "Print & Pattern",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2020-11-17T15:15:13.367Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "38",
+        "object_repr": "Compliance standard",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2020-11-17T15:15:19.377Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "Trims",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2020-11-17T15:15:44.403Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "Default",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2020-11-17T15:16:11.869Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "29",
+        "object_repr": "Standard 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2020-11-17T15:16:19.036Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "Standard 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2020-11-17T15:16:30.322Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "Standard 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2020-11-17T15:16:45.887Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "Print stuff",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2020-11-17T15:16:59.518Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "Finish 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2020-11-17T15:17:11.291Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Printing method",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2020-11-17T15:17:20.031Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "Finish 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2020-11-17T15:17:26.247Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "Finish 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2020-11-17T15:17:34.750Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Dye stuff",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2020-11-17T15:17:42.800Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Dye method",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2020-11-17T15:17:55.155Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Colour3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2020-11-17T15:18:02.076Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Colour2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2020-11-17T15:18:10.212Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Colour1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2020-11-17T15:18:20.810Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Light/dark",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2020-11-17T15:18:51.191Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Type",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2020-11-17T15:19:45.443Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2020-11-17T15:19:55.921Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Other cellulosics",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2020-11-17T15:20:05.184Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Leather",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2020-11-17T15:20:12.691Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Down",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2020-11-17T15:20:20.169Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Silk",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2020-11-17T15:20:37.947Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Elastane",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2020-11-17T15:20:58.081Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Acrylic",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2020-11-17T15:21:06.174Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Polyamide",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2020-11-17T15:21:23.099Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Nylon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2020-11-17T15:21:29.844Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Viscose/Lyocell",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2020-11-17T15:21:38.265Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Cashmere",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2020-11-17T15:21:46.285Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Wool",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2020-11-17T15:22:03.304Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Polyester",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2020-11-17T15:22:17.315Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Cotton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2020-11-17T15:47:28.485Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "Total % Material 1 Composition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2020-11-17T15:47:46.686Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "(Total % Material 1 Composition == 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.469Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.791Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.807Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.822Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.840Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.868Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.888Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2020-11-17T16:24:34.902Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2020-11-17T16:36:19.751Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Material 1 - Polyester",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.579Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "[N] 1 [fixed value]",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.612Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "[N] Material 1 - Finish 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.615Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "[N] Flame Retardant",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.617Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "[N] Material 1 - Standard 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.619Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "[N] ZDHC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.621Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "[N] Material 1 - Default",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.622Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "[N] No Trims",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.624Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "[N] 0.3 [fixed value]",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.626Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "[N] Material 1 - Cotton",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.627Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "[N] 0.9 [fixed value]",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2020-11-17T17:48:37.628Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "[N] Total % Material 1 Composition",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2020-11-17T17:49:28.263Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "19",
+        "object_repr": "[R] 1 [fixed value]",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2020-11-17T17:50:07.493Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "20",
+        "object_repr": "[N] 0.3 [fixed value]",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2020-11-17T17:50:13.498Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "19",
+        "object_repr": "[N] 1 [fixed value]",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2020-11-17T17:50:48.055Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "21",
+        "object_repr": "[N] Material 1 - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2020-11-17T17:51:38.432Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "22",
+        "object_repr": "[N] 0.9 [fixed value]",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2020-11-17T17:52:45.094Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "[L] Material 1 - Polyester + [N] Material 1 - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2020-11-17T17:52:53.661Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "23",
+        "object_repr": "[L] [L] Material 1 - Polyester + [N] Material 1 - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2020-11-17T17:53:35.578Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "[L] [L] Material 1 - Polyester + [N] Material 1 - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2020-11-17T17:53:38.743Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "24",
+        "object_repr": "[L] [L] [L] Material 1 - Polyester + [N] Material 1 - Cotton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2020-11-17T17:54:26.905Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "25",
+        "object_repr": "[N] Total % Material 1 Composition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2020-11-17T17:56:21.447Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "[N] 1 [fixed value] == [N] Total % Material 1 Composition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2020-11-17T17:56:37.011Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "25",
+        "object_repr": "[L] Total % Material 1 Composition",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2020-11-17T17:57:24.468Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "[L] Material 1 - Polyester > [N] 0.3 [fixed value]",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2020-11-17T18:00:06.207Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "[L] Material 1 - Polyester >= [N] 0.3 [fixed value]",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Operator\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2020-11-17T18:02:30.773Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "[L] [L] Material 1 - Polyester + [N] Material 1 - Cotton >= [N] 0.9 [fixed value]",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Operands\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2020-11-17T18:04:04.713Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "26",
+        "object_repr": "[N] [L] Material 1 - Polyester >= [N] 0.3 [fixed value]",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2020-11-17T18:04:19.873Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "27",
+        "object_repr": "[N] [L] Total % Material 1 Composition == [N] 1 [fixed value]",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2020-11-17T18:04:28.226Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "14",
+        "object_repr": "[L] [L] [L] Material 1 - Polyester + [N] Material 1 - Cotton >= [N] 0.9 [fixed value] && [N] [L] Material 1 - Polyester >= [N] 0.3 [fixed value] && [N] [L] Total % Material 1 Composition == [N] 1 [fix",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2020-11-17T18:39:46.533Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "([L] ([L] Material 1 - Polyester) + ([N] Material 1 - Cotton) ) >= ([N] 0.9 [fixed value]) ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2020-11-17T18:40:06.402Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "([L] Material 1 - Polyester) + ([N] Material 1 - Cotton) ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2020-11-17T18:40:28.762Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "([L] Total % Material 1 Composition) == ([N] 1 [fixed value]) ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2020-11-17T18:40:37.637Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "([L] Material 1 - Polyester) >= ([N] 0.3 [fixed value]) ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2020-11-17T22:35:02.062Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "28",
+        "object_repr": "[N] ([L] ([L] ([L] Material 1 - Polyester) + ([N] Material 1 - Cotton) ) >= ([N] 0.9 [fixed value]) ) && ([N] ([L] Material 1 - Polyester) >= ([N] 0.3 [fixed value]) ) && ([N] ([L] Total % Material 1 ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2020-11-18T00:58:14.546Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "28",
+        "object_repr": "[N] ([L] ([L] ([L] Material 1 - Polyester) + ([N] Material 1 - Cotton) ) >= ([N] 0.9 [fixed value]) ) & ([N] ([L] Material 1 - Polyester) >= ([N] 0.3 [fixed value]) ) & ([N] ([L] Total % Material 1 Co",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2020-11-18T14:07:55.741Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Quality 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Min count\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2020-11-18T14:08:01.837Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Quality 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Min count\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2020-11-18T14:08:08.116Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Quality 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Min count\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2020-11-18T14:08:23.249Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Quality 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Min count\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2020-11-18T20:12:35.142Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "unspecified",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add attribute",
+        "content_type": 7,
+        "codename": "add_attribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change attribute",
+        "content_type": 7,
+        "codename": "change_attribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete attribute",
+        "content_type": 7,
+        "codename": "delete_attribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view attribute",
+        "content_type": 7,
+        "codename": "view_attribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add attribute option",
+        "content_type": 8,
+        "codename": "add_attributeoption"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change attribute option",
+        "content_type": 8,
+        "codename": "change_attributeoption"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete attribute option",
+        "content_type": 8,
+        "codename": "delete_attributeoption"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view attribute option",
+        "content_type": 8,
+        "codename": "view_attributeoption"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 9,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 9,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 9,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 9,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add material",
+        "content_type": 10,
+        "codename": "add_material"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change material",
+        "content_type": 10,
+        "codename": "change_material"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete material",
+        "content_type": 10,
+        "codename": "delete_material"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view material",
+        "content_type": 10,
+        "codename": "view_material"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add material attribute",
+        "content_type": 11,
+        "codename": "add_materialattribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change material attribute",
+        "content_type": 11,
+        "codename": "change_materialattribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete material attribute",
+        "content_type": 11,
+        "codename": "delete_materialattribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view material attribute",
+        "content_type": 11,
+        "codename": "view_materialattribute"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add operand",
+        "content_type": 12,
+        "codename": "add_operand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change operand",
+        "content_type": 12,
+        "codename": "change_operand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete operand",
+        "content_type": 12,
+        "codename": "delete_operand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view operand",
+        "content_type": 12,
+        "codename": "view_operand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add operation",
+        "content_type": 13,
+        "codename": "add_operation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change operation",
+        "content_type": 13,
+        "codename": "change_operation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete operation",
+        "content_type": 13,
+        "codename": "delete_operation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view operation",
+        "content_type": 13,
+        "codename": "view_operation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add recycler",
+        "content_type": 14,
+        "codename": "add_recycler"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change recycler",
+        "content_type": 14,
+        "codename": "change_recycler"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete recycler",
+        "content_type": 14,
+        "codename": "delete_recycler"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view recycler",
+        "content_type": 14,
+        "codename": "view_recycler"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add recycler quality",
+        "content_type": 15,
+        "codename": "add_recyclerquality"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change recycler quality",
+        "content_type": 15,
+        "codename": "change_recyclerquality"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete recycler quality",
+        "content_type": 15,
+        "codename": "delete_recyclerquality"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view recycler quality",
+        "content_type": 15,
+        "codename": "view_recyclerquality"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$CiYyJs3NWzW9$NUxd0f4RnWM9mF4KG5dMYAcjWAo18p64gQADe7OAjJo=",
+        "last_login": "2020-11-17T01:58:18.270Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@localhost.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-11-17T01:56:55.168Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "materials",
+        "model": "attribute"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "materials",
+        "model": "attributeoption"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "materials",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "materials",
+        "model": "material"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "materials",
+        "model": "materialattribute"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "materials",
+        "model": "operand"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "materials",
+        "model": "operation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "materials",
+        "model": "recycler"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "materials",
+        "model": "recyclerquality"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "djmvs77hyrme9nqrmyo8mf2e0ks85q9j",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAmQAGX7j0DGZhBqoYmpV013t026UK3_733NxFxXWpcO89xJHEVIC6_W8L84nYAemJ7TDJPbZnHJA9FnrTL-0T8vp3u30HFXvc6GHaWtUOvgBjYarBKZVAaAilNQ9n54A0QaJMoeGtcKhjYBO1VKuLzBb56Nxc:1keqGA:QytBA50XUSm06Uag_REIUrDTjEW_yfbce7xg2rpWSpg",
+        "expire_date": "2020-12-01T01:58:18.277Z"
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 1,
+    "fields": {
+        "category": 31,
+        "name": "Cotton",
+        "placeholder": "COTTON",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 2,
+    "fields": {
+        "category": 31,
+        "name": "Polyester",
+        "placeholder": "POLYESTER",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 3,
+    "fields": {
+        "category": 31,
+        "name": "Wool",
+        "placeholder": "WOOL",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 4,
+    "fields": {
+        "category": 31,
+        "name": "Cashmere",
+        "placeholder": "CASHMERE",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 5,
+    "fields": {
+        "category": 31,
+        "name": "Viscose/Lyocell",
+        "placeholder": "VISCOSELYOCELL",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 6,
+    "fields": {
+        "category": 31,
+        "name": "Nylon",
+        "placeholder": "NYLON",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 7,
+    "fields": {
+        "category": 31,
+        "name": "Polyamide",
+        "placeholder": "POLYAMIDE",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 8,
+    "fields": {
+        "category": 31,
+        "name": "Acrylic",
+        "placeholder": "ACRYLIC",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 9,
+    "fields": {
+        "category": 31,
+        "name": "Elastane",
+        "placeholder": "ELASTANE",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 10,
+    "fields": {
+        "category": 31,
+        "name": "Silk",
+        "placeholder": "SILK",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 11,
+    "fields": {
+        "category": 31,
+        "name": "Down",
+        "placeholder": "DOWN",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 12,
+    "fields": {
+        "category": 31,
+        "name": "Leather",
+        "placeholder": "LEATHER",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 13,
+    "fields": {
+        "category": 31,
+        "name": "Other cellulosics",
+        "placeholder": "OTHER_CELLULOSICS",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 14,
+    "fields": {
+        "category": 31,
+        "name": "Others",
+        "placeholder": "OTHERS",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 15,
+    "fields": {
+        "category": 32,
+        "name": "Type",
+        "placeholder": "TYPE",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 16,
+    "fields": {
+        "category": 33,
+        "name": "Light/dark",
+        "placeholder": "LIGHTDARK",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 17,
+    "fields": {
+        "category": 34,
+        "name": "Colour1",
+        "placeholder": "COLOUR1",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 18,
+    "fields": {
+        "category": 34,
+        "name": "Colour2",
+        "placeholder": "COLOUR2",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 19,
+    "fields": {
+        "category": 34,
+        "name": "Colour3",
+        "placeholder": "COLOUR3",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 20,
+    "fields": {
+        "category": 35,
+        "name": "Dye method",
+        "placeholder": "DYE_METHOD",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 21,
+    "fields": {
+        "category": 35,
+        "name": "Dye stuff",
+        "placeholder": "DYE_STUFF",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 22,
+    "fields": {
+        "category": 36,
+        "name": "Finish 1",
+        "placeholder": "FINISH_1",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 23,
+    "fields": {
+        "category": 36,
+        "name": "Finish 2",
+        "placeholder": "FINISH_2",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 24,
+    "fields": {
+        "category": 36,
+        "name": "Finish 3",
+        "placeholder": "FINISH_3",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 25,
+    "fields": {
+        "category": 37,
+        "name": "Printing method",
+        "placeholder": "PRINTING_METHOD",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 26,
+    "fields": {
+        "category": 37,
+        "name": "Print stuff",
+        "placeholder": "PRINT_STUFF",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 27,
+    "fields": {
+        "category": 38,
+        "name": "Standard 1",
+        "placeholder": "STANDARD_1",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 28,
+    "fields": {
+        "category": 38,
+        "name": "Standard 2",
+        "placeholder": "STANDARD_2",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 29,
+    "fields": {
+        "category": 38,
+        "name": "Standard 3",
+        "placeholder": "STANDARD_3",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 30,
+    "fields": {
+        "category": 39,
+        "name": "Default",
+        "placeholder": "DEFAULT",
+        "lft": 2,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 31,
+    "fields": {
+        "category": null,
+        "name": "Composition",
+        "placeholder": "COMPOSITION",
+        "lft": 1,
+        "rght": 3,
+        "tree_id": 1,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 32,
+    "fields": {
+        "category": null,
+        "name": "Fabric construction",
+        "placeholder": "FABRIC_CONSTRUCTION",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 2,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 33,
+    "fields": {
+        "category": null,
+        "name": "Colour shade",
+        "placeholder": "COLOUR_SHADE",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 3,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 34,
+    "fields": {
+        "category": null,
+        "name": "Colour",
+        "placeholder": "COLOUR",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 4,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 35,
+    "fields": {
+        "category": null,
+        "name": "Dyes",
+        "placeholder": "DYES",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 5,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 36,
+    "fields": {
+        "category": null,
+        "name": "Finishes",
+        "placeholder": "FINISHES",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 6,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 37,
+    "fields": {
+        "category": null,
+        "name": "Print & Pattern",
+        "placeholder": "PRINT__PATTERN",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 7,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 38,
+    "fields": {
+        "category": null,
+        "name": "Compliance standard",
+        "placeholder": "COMPLIANCE_STANDARD",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 8,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attribute",
+    "pk": 39,
+    "fields": {
+        "category": null,
+        "name": "Trims",
+        "placeholder": "TRIMS",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 9,
+        "level": 0
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 1,
+    "fields": {
+        "name": "light",
+        "placeholder": "LIGHT",
+        "valid_for": [
+            16
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 2,
+    "fields": {
+        "name": "dark",
+        "placeholder": "DARK",
+        "valid_for": [
+            16
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 3,
+    "fields": {
+        "name": "mixed",
+        "placeholder": "MIXED",
+        "valid_for": [
+            16
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 5,
+    "fields": {
+        "name": "beige",
+        "placeholder": "BEIGE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 6,
+    "fields": {
+        "name": "black",
+        "placeholder": "BLACK",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 7,
+    "fields": {
+        "name": "black & white",
+        "placeholder": "BLACK__WHITE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 8,
+    "fields": {
+        "name": "blue",
+        "placeholder": "BLUE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 9,
+    "fields": {
+        "name": "burgundy",
+        "placeholder": "BURGUNDY",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 10,
+    "fields": {
+        "name": "brown",
+        "placeholder": "BROWN",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 11,
+    "fields": {
+        "name": "coral",
+        "placeholder": "CORAL",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 12,
+    "fields": {
+        "name": "indigo",
+        "placeholder": "INDIGO",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 13,
+    "fields": {
+        "name": "gold",
+        "placeholder": "GOLD",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 14,
+    "fields": {
+        "name": "green",
+        "placeholder": "GREEN",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 15,
+    "fields": {
+        "name": "grey",
+        "placeholder": "GREY",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 16,
+    "fields": {
+        "name": "khaki",
+        "placeholder": "KHAKI",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 17,
+    "fields": {
+        "name": "multicoloured",
+        "placeholder": "MULTICOLOURED",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 18,
+    "fields": {
+        "name": "navy",
+        "placeholder": "NAVY",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 19,
+    "fields": {
+        "name": "nude",
+        "placeholder": "NUDE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 20,
+    "fields": {
+        "name": "off-white",
+        "placeholder": "OFFWHITE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 21,
+    "fields": {
+        "name": "red",
+        "placeholder": "RED",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 22,
+    "fields": {
+        "name": "rose",
+        "placeholder": "ROSE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 23,
+    "fields": {
+        "name": "silver",
+        "placeholder": "SILVER",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 24,
+    "fields": {
+        "name": "taupe",
+        "placeholder": "TAUPE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 25,
+    "fields": {
+        "name": "teal",
+        "placeholder": "TEAL",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 26,
+    "fields": {
+        "name": "turquoise",
+        "placeholder": "TURQUOISE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 27,
+    "fields": {
+        "name": "untreated",
+        "placeholder": "UNTREATED",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 28,
+    "fields": {
+        "name": "uni-colour",
+        "placeholder": "UNICOLOUR",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 29,
+    "fields": {
+        "name": "white",
+        "placeholder": "WHITE",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 30,
+    "fields": {
+        "name": "yellow",
+        "placeholder": "YELLOW",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 31,
+    "fields": {
+        "name": "other",
+        "placeholder": "OTHER",
+        "valid_for": [
+            17,
+            19,
+            18
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 32,
+    "fields": {
+        "name": "Undyed",
+        "placeholder": "UNDYED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 33,
+    "fields": {
+        "name": "Unspecified",
+        "placeholder": "UNSPECIFIED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 34,
+    "fields": {
+        "name": "Direct Dyed",
+        "placeholder": "DIRECT_DYED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 35,
+    "fields": {
+        "name": "Top Dyed",
+        "placeholder": "TOP_DYED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 36,
+    "fields": {
+        "name": "Yarn Dyed",
+        "placeholder": "YARN_DYED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 37,
+    "fields": {
+        "name": "Dope Dyed",
+        "placeholder": "DOPE_DYED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 38,
+    "fields": {
+        "name": "Piece Dyed",
+        "placeholder": "PIECE_DYED",
+        "valid_for": [
+            20
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 39,
+    "fields": {
+        "name": "Reactive Dyes",
+        "placeholder": "REACTIVE_DYES",
+        "valid_for": [
+            21,
+            26
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 40,
+    "fields": {
+        "name": "Synthetic Pigments",
+        "placeholder": "SYNTHETIC_PIGMENTS",
+        "valid_for": [
+            21,
+            26
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 41,
+    "fields": {
+        "name": "Natural Pigments",
+        "placeholder": "NATURAL_PIGMENTS",
+        "valid_for": [
+            21,
+            26
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 42,
+    "fields": {
+        "name": "Pastes",
+        "placeholder": "PASTES",
+        "valid_for": [
+            21,
+            26
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 43,
+    "fields": {
+        "name": "No Print",
+        "placeholder": "NO_PRINT",
+        "valid_for": [
+            26,
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 44,
+    "fields": {
+        "name": "Batik printed",
+        "placeholder": "BATIK_PRINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 45,
+    "fields": {
+        "name": "Digital printed",
+        "placeholder": "DIGITAL_PRINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 46,
+    "fields": {
+        "name": "Hand painted",
+        "placeholder": "HAND_PAINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 47,
+    "fields": {
+        "name": "Inkjet printed",
+        "placeholder": "INKJET_PRINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 48,
+    "fields": {
+        "name": "Roller printed",
+        "placeholder": "ROLLER_PRINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 49,
+    "fields": {
+        "name": "Screen printed",
+        "placeholder": "SCREEN_PRINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 50,
+    "fields": {
+        "name": "Transfer printed",
+        "placeholder": "TRANSFER_PRINTED",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 51,
+    "fields": {
+        "name": "Woven patterns",
+        "placeholder": "WOVEN_PATTERNS",
+        "valid_for": [
+            25
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 52,
+    "fields": {
+        "name": "Flame Retardant",
+        "placeholder": "FLAME_RETARDANT",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 53,
+    "fields": {
+        "name": "Water Proof",
+        "placeholder": "WATER_PROOF",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 54,
+    "fields": {
+        "name": "Water Resistant",
+        "placeholder": "WATER_RESISTANT",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 55,
+    "fields": {
+        "name": "Waxes",
+        "placeholder": "WAXES",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 56,
+    "fields": {
+        "name": "Coated",
+        "placeholder": "COATED",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 57,
+    "fields": {
+        "name": "Permanent Press",
+        "placeholder": "PERMANENT_PRESS",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 58,
+    "fields": {
+        "name": "Matting Agents",
+        "placeholder": "MATTING_AGENTS",
+        "valid_for": [
+            24,
+            22,
+            23
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 59,
+    "fields": {
+        "name": "no certificate",
+        "placeholder": "NO_CERTIFICATE",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 60,
+    "fields": {
+        "name": "GRS",
+        "placeholder": "GRS",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 61,
+    "fields": {
+        "name": "C2C",
+        "placeholder": "C2C",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 62,
+    "fields": {
+        "name": "REACH",
+        "placeholder": "REACH",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 63,
+    "fields": {
+        "name": "ZDHC",
+        "placeholder": "ZDHC",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 64,
+    "fields": {
+        "name": "IVN",
+        "placeholder": "IVN",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 65,
+    "fields": {
+        "name": "FairTrade Prohibited Chemical List",
+        "placeholder": "FAIRTRADE_PROHIBITED_CHEMICAL_LIST",
+        "valid_for": [
+            29,
+            28,
+            27
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 66,
+    "fields": {
+        "name": "No Trims",
+        "placeholder": "NO_TRIMS",
+        "valid_for": [
+            30
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 67,
+    "fields": {
+        "name": "Cellulosic Trims",
+        "placeholder": "CELLULOSIC_TRIMS",
+        "valid_for": [
+            30
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 68,
+    "fields": {
+        "name": "Polyester Trims",
+        "placeholder": "POLYESTER_TRIMS",
+        "valid_for": [
+            30
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 69,
+    "fields": {
+        "name": "Yarns",
+        "placeholder": "YARNS",
+        "valid_for": [
+            15
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 70,
+    "fields": {
+        "name": "Thread",
+        "placeholder": "THREAD",
+        "valid_for": [
+            15
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 71,
+    "fields": {
+        "name": "Woven",
+        "placeholder": "WOVEN",
+        "valid_for": [
+            15
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 72,
+    "fields": {
+        "name": "Knitted",
+        "placeholder": "KNITTED",
+        "valid_for": [
+            15
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 73,
+    "fields": {
+        "name": "Nonwoven",
+        "placeholder": "NONWOVEN",
+        "valid_for": [
+            15
+        ]
+    }
+},
+{
+    "model": "materials.attributeoption",
+    "pk": 74,
+    "fields": {
+        "name": "Any",
+        "placeholder": "ANY",
+        "valid_for": [
+            15
+        ]
+    }
+},
+{
+    "model": "materials.material",
+    "pk": 1,
+    "fields": {
+        "name": "Material 1"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 1,
+    "fields": {
+        "attribute": 1,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "30.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 2,
+    "fields": {
+        "attribute": 2,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "70.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 3,
+    "fields": {
+        "attribute": 15,
+        "material": 1,
+        "value_type": "c",
+        "choice": 71,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 4,
+    "fields": {
+        "attribute": 16,
+        "material": 1,
+        "value_type": "c",
+        "choice": 3,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 5,
+    "fields": {
+        "attribute": 17,
+        "material": 1,
+        "value_type": "c",
+        "choice": 29,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 6,
+    "fields": {
+        "attribute": 18,
+        "material": 1,
+        "value_type": "c",
+        "choice": 12,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 7,
+    "fields": {
+        "attribute": 20,
+        "material": 1,
+        "value_type": "c",
+        "choice": 35,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 8,
+    "fields": {
+        "attribute": 21,
+        "material": 1,
+        "value_type": "c",
+        "choice": 39,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 9,
+    "fields": {
+        "attribute": 22,
+        "material": 1,
+        "value_type": "c",
+        "choice": 55,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 10,
+    "fields": {
+        "attribute": 24,
+        "material": 1,
+        "value_type": "c",
+        "choice": 52,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 11,
+    "fields": {
+        "attribute": 25,
+        "material": 1,
+        "value_type": "c",
+        "choice": 43,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 12,
+    "fields": {
+        "attribute": 26,
+        "material": 1,
+        "value_type": "c",
+        "choice": 43,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 13,
+    "fields": {
+        "attribute": 27,
+        "material": 1,
+        "value_type": "c",
+        "choice": 60,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 14,
+    "fields": {
+        "attribute": 28,
+        "material": 1,
+        "value_type": "c",
+        "choice": 59,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 15,
+    "fields": {
+        "attribute": 29,
+        "material": 1,
+        "value_type": "c",
+        "choice": 59,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 16,
+    "fields": {
+        "attribute": 30,
+        "material": 1,
+        "value_type": "c",
+        "choice": 67,
+        "percentage": null
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 17,
+    "fields": {
+        "attribute": 3,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 18,
+    "fields": {
+        "attribute": 4,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 19,
+    "fields": {
+        "attribute": 5,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 20,
+    "fields": {
+        "attribute": 6,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 21,
+    "fields": {
+        "attribute": 7,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 22,
+    "fields": {
+        "attribute": 8,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 23,
+    "fields": {
+        "attribute": 9,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 24,
+    "fields": {
+        "attribute": 11,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 25,
+    "fields": {
+        "attribute": 12,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 26,
+    "fields": {
+        "attribute": 13,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.materialattribute",
+    "pk": 27,
+    "fields": {
+        "attribute": 14,
+        "material": 1,
+        "value_type": "p",
+        "choice": null,
+        "percentage": "0.00"
+    }
+},
+{
+    "model": "materials.recycler",
+    "pk": 1,
+    "fields": {
+        "name": "Recycler 1"
+    }
+},
+{
+    "model": "materials.recyclerquality",
+    "pk": 1,
+    "fields": {
+        "title": "Quality 1",
+        "recycler": 1,
+        "material": 1,
+        "min_count": 1,
+        "operations": []
+    }
+}
+]
