@@ -70,7 +70,7 @@ class MaterialAttribute(models.Model):
 
     @property
     def value(self):
-        return self.choice if self.value_type == ATTR_VALUE_TYPE.CHOICE else Decimal(self.percentage / 100)
+        return self.choice.name if self.value_type == ATTR_VALUE_TYPE.CHOICE else Decimal(self.percentage / 100)
 
     def __str__(self):
         return f'{str(self.material)} - {str(self.attribute)}'
@@ -107,14 +107,14 @@ class RecyclerQuality(models.Model):
             qs = None
             is_attribute = False
             if operand.startswith('ATTR_'):
-                operand = operand.lstrip('ATTR_')
+                operand = operand.replace('ATTR_', '', 1)
                 is_attribute = True
                 qs = MaterialAttribute.objects.filter(material=self.material, attribute__placeholder=operand)
             elif operand.startswith('OPT_'):
-                operand = operand.lstrip('OPT_')
+                operand = operand.replace('OPT_', '', 1)
                 is_attribute = False
                 qs = MaterialAttribute.objects.filter(
-                    material=self.material, attribute__attributeoption__placeholder=operand
+                    material=self.material, choice__placeholder=operand
                 )
             if not qs:
                 raise InvalidOperandException(operand)
@@ -164,7 +164,7 @@ class RecyclerQuality(models.Model):
             else:
                 readable_code += str(operand)
                 operand_code = self.translate_operand(operand)
-            code += f'{str(operand_code)}'
+            code += f'"{operand_code}"' if isinstance(operand_code, str) else f'{str(operand_code)}'
             code += f' {operator} '
             readable_code += f' {operator} '
         code = code.rstrip(f' {operator} ')
