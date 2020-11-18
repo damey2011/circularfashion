@@ -177,13 +177,15 @@ class RecyclerQuality(models.Model):
 
     def evaluate_conditions(self, readable: bool = False) -> List[Any]:
         res = []
+        safe_names = {'bool': bool}
         for operation in self.operations:
             code, readable_exp = self.expression_to_python(operation)
             if not readable:
                 code = compile(code, '<string>', 'eval')
-                if code.co_names:
-                    raise UnTrustedOperationException(code.co_names)
-                code = eval(code, {"__builtins__": {}}, {})
+                for name in code.co_names:
+                    if name not in safe_names:
+                        raise UnTrustedOperationException(code.co_names)
+                code = eval(code, {"__builtins__": {}}, safe_names)
                 res.append(code)
             else:
                 res.append(readable_exp)
