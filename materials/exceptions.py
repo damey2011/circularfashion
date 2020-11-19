@@ -15,8 +15,8 @@ class MissingOperandsException(BaseException):
 
 
 class InvalidOperandException(BaseException):
-    def __init__(self, operand, *args):
-        self.message = f'Invalid operand {str(operand)}.'
+    def __init__(self, operand, type_, *args):
+        self.message = f'Invalid operand {str(operand)} of type "{type_}".'
         super().__init__(self.message, *args)
 
 

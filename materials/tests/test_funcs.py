@@ -138,3 +138,14 @@ class TestGeneral(TestSetup):
         with self.assertRaises(NoOperationToPerformException):
             self.create_quality()
             self.quality.judge()
+
+    def test_that_cumulative_operation_returns_valid_response(self):
+        self.operations = [{
+            'operator': '==',
+            'operands': [
+                'CUM_COMPOSITION',
+                1
+            ]
+        }]
+        self.create_quality()
+        self.assertEqual(self.quality.judge(), True)

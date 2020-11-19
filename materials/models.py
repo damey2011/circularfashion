@@ -105,26 +105,41 @@ class RecyclerQuality(models.Model):
     def translate_operand(self, operand: Union[str, int, float]) -> Any:
         if isinstance(operand, str) and not operand.isnumeric():
             qs = None
-            is_attribute = False
+            operand_type = None
             if operand.startswith('ATTR_'):
                 operand = operand.replace('ATTR_', '', 1)
-                is_attribute = True
+                operand_type = 'A'
                 qs = MaterialAttribute.objects.filter(material=self.material, attribute__placeholder=operand)
             elif operand.startswith('OPT_'):
                 operand = operand.replace('OPT_', '', 1)
-                is_attribute = False
+                operand_type = 'O'
                 qs = MaterialAttribute.objects.filter(
                     material=self.material, choice__placeholder=operand
                 )
-            if not qs:
-                raise InvalidOperandException(operand)
+            elif operand.startswith('CUM_'):
+                operand = operand.replace('CUM_', '', 1)
+                operand_type = 'C'
+                qs = MaterialAttribute.objects.filter(
+                    value_type=ATTR_VALUE_TYPE.PERCENTAGE, material=self.material,
+                    attribute__category__placeholder=operand
+                )
+            # do checks for exception
+            if operand_type == 'A':
+                if not Attribute.objects.filter(placeholder=operand, category__isnull=False).exists():
+                    raise InvalidOperandException(operand, 'ATTR')
+            elif operand_type == 'C':
+                if not Attribute.objects.filter(category__placeholder=operand).exists():
+                    raise InvalidOperandException(operand, 'CUM')
+            elif operand_type == 'O':
+                if not AttributeOption.objects.filter(placeholder=operand).exists():
+                    raise InvalidOperandException(operand, 'OPT')
+            else:
+                raise InvalidOperandException(operand, 'Unknown')
+            if operand_type == 'C':
+                # No category means it a cumulative operation
+                sum_ = qs.aggregate(sum=Sum('percentage')).get('sum', 0)
+                return sum_ / 100 if sum_ else sum_
             right_attribute: MaterialAttribute = qs.first()
-            if is_attribute:
-                if not right_attribute.attribute.category:
-                    # No category means it a cumulative operation
-                    return MaterialAttribute.objects.filter(
-                        value_type=ATTR_VALUE_TYPE.PERCENTAGE, material=self.material
-                    ).aggregate(sum=Sum('percentage')).get('sum', 0)
             return right_attribute.value
         else:
             return operand
