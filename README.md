@@ -42,11 +42,11 @@ Django application.
     ```bash
     docker-compose up --build -d
     ```
-  The `--build` flag helps to build the containers if they have not been built before or some changes
+  The `--build` flag helps to build the images if they have not been built before or some changes
   have been made to configurations and dependencies since the last time they were built.
   Then the `-d` flag runs the containers in detached mode (they don't block your terminal).
   
-- To start the application, you may want to run migrations first by executing:
+- Continuing setting up the application, you may want to run migrations first by executing:
     ```bash
     docker-compose exec web python manage.py migrate
     ```
@@ -64,7 +64,7 @@ port for the Nginx server to interface with the host machine.
 
 
 ### Tests
-There are just few tests in there which of course can be improved on and added to boost confidence 
+There are just few tests in here, which of course can be improved on and added to, in order to boost confidence 
 in the workability of the API service. Meanwhile, you can run the basic test cases by executing:
 
 ```bash
