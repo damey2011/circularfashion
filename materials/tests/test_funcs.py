@@ -149,3 +149,12 @@ class TestGeneral(TestSetup):
         }]
         self.create_quality()
         self.assertEqual(self.quality.judge(), True)
+
+    def test_that_choice_based_operation_returns_valid_data(self):
+        self.operations = [{
+            'operator': '==',
+            'operands': [
+                'ATTR_DYE_STUFF',
+                'OPT_TOP_DYED'
+            ]
+        }]
