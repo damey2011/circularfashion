@@ -1,7 +1,7 @@
 from django.core.management import BaseCommand
 
 from materials.constants import ATTR_VALUE_TYPE
-from materials.models import MaterialAttribute, AttributeOption, Attribute, Material, Recycler
+from materials.models import MaterialAttribute, AttributeOption, Attribute, Material, Recycler, RecyclerQuality
 
 CATEGORIES = {
     'Composition': """
@@ -116,3 +116,7 @@ class Command(BaseCommand):
         ]
 
         self.recycler = Recycler.objects.create(name='Recycler 1')
+
+        self.quality = RecyclerQuality.objects.create(material=self.material, recycler=self.recycler,
+                                                      title='Quality Best',
+                                                      min_count=1, operations=self.operations)

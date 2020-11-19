@@ -27,6 +27,13 @@ Django application.
     docker-compose exec web python manage.py migrate
     ```
  
+- There's a few mock data that would also readily generate the data shown later below in this doc. 
+Once you have ran migrations, you can load the data by running:
+
+    ```bash
+    docker-compose exec web python manage.py create_options
+    ```
+ 
 - You should be able to access the application on the host machine at port `80`. If you wish to run it on
 another port, you should change the configurations on the `docker-compose.yml` and choose a convenient 
 port for the Nginx server to interface with the host machine.
@@ -34,8 +41,13 @@ port for the Nginx server to interface with the host machine.
 
 ### Tests
 There are just few tests in there which of course can be improved on and added to boost confidence 
-in the workability of the API service.
+in the workability of the API service. Meanwhile, you can run the basic test cases by executing:
 
+```bash
+docker-compose exec web python manage.py test
+```
+
+## Others
 
 ### APIs Endpoint
 There are currently only two endpoints in the application which are 
@@ -91,7 +103,7 @@ Example of the payload returned by this endpoint is:
 ]
 ``` 
 
-while the initial endpoint (material attributes) return data like this:
+while the initial endpoint (material attributes) returns data like this:
 
 ```json
 [
