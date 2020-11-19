@@ -10,6 +10,29 @@ It's assumed that you have the following installed:
 
  
 ### Installation
+- Firstly, you need to make some environmental variables available to docker. You can provide this file as 
+`.env` in the project root. Docker compose requires some of these variables to setup the postgres database, 
+while the Django application also picks up some settings from there. A sample of important variables include
+
+```bash
+POSTGRES_USER=cf-user
+POSTGRES_PASSWORD=somemorecomplexpasswordgoeshere
+POSTGRES_DB=cf-test-database
+CF_DB_NAME=cf-test-database
+CF_DB_HOST=db
+CF_DB_PORT=5432
+CF_DB_USER=cf-user
+CF_DB_PASSWORD=somemorecomplexpasswordgoeshere
+DEBUG=False
+```
+
+Docker uses the first three to setup the default credentials and create a database. The other ones are
+used by the Django application. You can decide to set these values as whatever you want. You just have to 
+make sure that the Django database configuration variables have the same as you have setup the database. 
+(`CF_DB_NAME`, `CF_DB_PORT`, `CF_DB_USER`, `CF_DB_PASSWORD`). You rarely need to change the host, unless
+you are overriding the docker-compose network configurations. 'db' is the host name of the database, it 
+is only resolvable in the docker environment.
+
 - Once you have docker installed, we just need to build the containers and start them up. The containers 
 are managed with docker-compose. The containers managed include instances of Nginx, Postgres and this 
 Django application.
