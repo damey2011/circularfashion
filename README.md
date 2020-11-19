@@ -27,7 +27,7 @@ Django application.
     docker-compose exec web python manage.py migrate
     ```
  
-- There's a few mock data that would also readily generate the data shown later below in this doc. 
+- There's chunk of mock data that can also readily generate similar data to the one shown later below in this doc. 
 Once you have ran migrations, you can load the data by running:
 
     ```bash
